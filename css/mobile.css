@@ -1,0 +1,53 @@
+/*                  __    _ __
+   ____ ___  ____  / /_  (_) /__   _______________
+  / __ `__ \/ __ \/ __ \/ / / _ \ / ___/ ___/ ___/
+ / / / / / / /_/ / /_/ / / /  __// /__(__  |__  )
+/_/ /_/ /_/\____/_.___/_/_/\___(_)___/____/____/
+
+Aun no te atreves a optimizar tu sitio web para móviles porque crees que eso significa un gran
+trabajo de programación?
+
+==================================================================================================*/
+
+/*
+	<https://www.materialpalette.com/blue-grey/teal>
+
+	.dark-primary-color    { background: #455A64; }
+	.default-primary-color { background: #607D8B; }
+	.light-primary-color   { background: #CFD8DC; }
+	.text-primary-color    { color: #FFFFFF; }
+	.accent-color          { background: #009688; }
+	.primary-text-color    { color: #212121; }
+	.secondary-text-color  { color: #727272; }
+	.divider-color         { border-color: #B6B6B6; }
+*/
+
+.site-header {
+
+	-webkit-box-shadow: 0 0 3px #DDD;
+	box-shadow: 0 0 5px #DDD;
+	background: #CFD8DC;
+	color: #212121;
+}
+
+.site-header .logo {
+
+	font-size: 24px;
+	text-transform: uppercase;
+	line-height: 32px;
+}
+
+.site-header .logo img {
+
+	padding-right: 10px;
+	margin-right: 10px;
+	border-right: 1px solid #B6B6B6;
+}
+
+.site-footer {
+
+	-webkit-box-shadow: 0 0 3px #DDD;
+	box-shadow: 0 0 5px #DDD;
+	background: #CFD8DC;
+	color: #727272;
+}
