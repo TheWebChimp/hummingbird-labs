@@ -23,6 +23,7 @@
 	# Include extra files
 	include $site->baseDir('/external/utilities.inc.php');
 	include $site->baseDir('/external/ajax.inc.php');
+	include $site->baseDir('/external/experiment.inc.php');
 
 	# Meta tags
 	$site->addMeta('UTF-8', '', 'charset');
@@ -37,5 +38,12 @@
 
 	# Pages
 	// $site->addPage('sample', 'sample-page');
+
+	# Views
+	include $site->baseDir('/external/view/experiments.view.php');
+
+	# Controllers
+	include $site->baseDir('/external/controller/experiments.controller.php');
+
 
 ?>
