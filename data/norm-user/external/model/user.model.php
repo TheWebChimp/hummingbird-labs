@@ -72,7 +72,7 @@
 			}
 
 			$this->modified = date('Y-m-d H:i:s');
-			$this->nickname = $this->nickname ? $this->nickname : $this->email;
+			$this->nicename = $this->nicename ? $this->nicename : $this->email;
 			$this->login = $this->login ? $this->login : $this->email;
 
 			if( substr($this->password, 0, 4) != '$2a$' ) {
