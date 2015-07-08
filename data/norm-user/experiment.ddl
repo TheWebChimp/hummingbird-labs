@@ -21,7 +21,7 @@ CREATE TABLE user_meta (
 	name VARCHAR(200) NOT NULL,
 	value TEXT NOT NULL,
 	PRIMARY KEY pk_id (id),
-	UNIQUE KEY uk_usuario_name (user_id ,name),
-	KEY idx_usuario_name (user_id ,name),
+	UNIQUE KEY uk_user_name (user_id ,name),
+	KEY idx_user_name (user_id ,name),
 	KEY idx_name (name)
 ) DEFAULT CHARACTER SET = UTF8;
