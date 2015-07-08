@@ -1,0 +1,86 @@
+html, body {
+
+	height: 100%;
+}
+
+.console-wrapper {
+
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -64px;
+}
+
+.console-footer, .console-push {
+
+	height: 64px;
+}
+
+.console-header {
+
+	background: #009688;
+	color: #FFFFFF;
+	border-bottom: 10px solid #00796B;
+}
+
+.console-header h2 {
+
+	font-size: 28px;
+	font-weight: 300;
+}
+
+.console-footer {
+
+	background: #009688;
+	color: #FFFFFF;
+}
+
+.console-footer .footer-copyright span {
+
+	display: block;
+	text-align: center;
+}
+
+.form-code {
+
+	margin-bottom: 15px;
+}
+
+.box-output {
+
+	border: 2px solid #B2DFDB;
+	margin-bottom: 0;
+}
+
+@media (min-width: 1000px) {
+
+	.console-wrapper {
+
+		margin: 0 auto -48px;
+	}
+
+	.console-footer, .console-push {
+
+		height: 48px;
+	}
+
+	.console-footer .footer-copyright span.copyright-left {
+
+		float: left;
+	}
+
+	.console-footer .footer-copyright span.copyright-right {
+
+		float: right;
+	}
+
+	.form-code {
+
+		margin-bottom: 0;
+	}
+
+	.box-output {
+
+		overflow: auto;
+	}
+}
