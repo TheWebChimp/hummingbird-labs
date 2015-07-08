@@ -14,3 +14,14 @@ CREATE TABLE user (
 	KEY key_status (status),
 	KEY key_type (type)
 ) DEFAULT CHARACTER SET = UTF8;
+
+CREATE TABLE user_meta (
+	id BIGINT NOT NULL AUTO_INCREMENT,
+	user_id  BIGINT(20) NOT NULL,
+	name VARCHAR(200) NOT NULL,
+	value TEXT NOT NULL,
+	PRIMARY KEY pk_id (id),
+	UNIQUE KEY uk_usuario_name (user_id ,name),
+	KEY idx_usuario_name (user_id ,name),
+	KEY idx_name (name)
+) DEFAULT CHARACTER SET = UTF8;
