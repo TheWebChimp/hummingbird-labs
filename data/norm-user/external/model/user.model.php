@@ -116,7 +116,7 @@
 		 * @return mixed User object on success, Null otherwise
 		 */
 		static function getCurrentUser() {
-			$ret = self::getByID( self::$user_id );
+			$ret = self::getById( self::$user_id );
 			return $ret;
 		}
 
